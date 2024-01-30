@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage
+    x:Class="Demo_liveTSE.Pages.Home"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <!-- <Label> hello</Label> -->
+        <Grid
+            Margin="10"
+            HeightRequest="500"
+            RowDefinitions="*,auto,auto,auto"
+            RowSpacing="10">
+            <Button
+                Grid.Row="1"
+                Clicked="Webview"
+                Text="Web View" />
+            <Button
+                Grid.Row="2"
+                Clicked="Imageview"
+                Text="Image View" />
+            <Button
+                Grid.Row="3"
+                Clicked="Chartview"
+                Text="Chart View" />
+            <Label
+                Grid.Row="0"
+                FontSize="100"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                TextColor="White"
+                VerticalOptions="Center"
+                VerticalTextAlignment="Center">
+                LIVE&#10;TSE
+            </Label>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

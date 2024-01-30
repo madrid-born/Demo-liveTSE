@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Demo_liveTSE.Pages.ImageView"
+             Background="White">
+    <ContentPage.Content>
+        <Grid RowDefinitions="*,*,*,*">
+            <Grid Grid.Row="0" ColumnDefinitions="*,*,*">
+                <Image Grid.Column="0" Source="t1.jpg"/>
+                <Image Grid.Column="1" Source="t2.jpg"/>
+                <Image Grid.Column="2" Source="t3.jpg"/>
+            </Grid>
+            <Grid Grid.Row="1" ColumnDefinitions="*,*,*">
+                <Image Grid.Column="0" Source="t4.jpg"/>
+                <Image Grid.Column="1" Source="t5.jpg"/>
+                <Image Grid.Column="2" Source="t6.jpg"/>
+            </Grid>
+            <Grid Grid.Row="2" ColumnDefinitions="*,*,*">
+                <Image Grid.Column="0" Source="t7.jpg"/>
+                <Image Grid.Column="1" Source="t8.jpg"/>
+                <Image Grid.Column="2" Source="t9.jpg"/>
+            </Grid>
+            <Grid Grid.Row="3" ColumnDefinitions="*,*,*">
+                <Image Grid.Column="0" Source="t10.jpg"/>
+                <Image Grid.Column="1" Source="t11.jpg"/>
+            </Grid>
+
+        </Grid>
+        
+    </ContentPage.Content>
+</ContentPage>
